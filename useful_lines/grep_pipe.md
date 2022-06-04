@@ -1,0 +1,1 @@
+`find `pwd` | grep <some_line_of_interest> | grep tsv | grep -v deprecated`
