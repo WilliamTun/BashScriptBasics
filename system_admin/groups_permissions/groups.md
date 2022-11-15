@@ -30,5 +30,8 @@ chgrp <group-name> ./<folder name>
 
 # read write for owner, read for group, and no permission for other users
 chmod -R 640 ./private-bl
+chmod -R 660 ./private-bl
+chmod -R 760 ./private-bl
+
 
 # Bare in mind, any sudo user, could still add themselves to that group
